@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+
+.nav{
+    width: 100vw;
+    height: 10vh;
+    z-index: 1;
+    position: fixed;
+}
+
+
+.nav-black{
+    background: black;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.nav-contents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    position: fixed;
+    left: 20px;
+    top: -10px;
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.user-logo{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+

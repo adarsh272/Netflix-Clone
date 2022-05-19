@@ -1,0 +1,27 @@
+
+.movie-row{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-x: scroll;
+    
+}
+
+.movie-row::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+
+
+.movie-row > img{
+    margin-right: 10px;
+    width: 200px;
+    height: 200px;
+    transition: transform .2s
+}
+
+.movie-row > img:hover{
+    transform: scale(1.2);
+}
+

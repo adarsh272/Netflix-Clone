@@ -1,0 +1,36 @@
+.footer{
+    height: 300px;
+    text-align: left;
+    color: rgb(86, 85, 85);
+
+}
+
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 200px; */
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.footer-title{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.dev-by{
+    text-align: center;
+    margin-top: 40px;
+}
+
+@media(max-width: 500px){
+    .footer-flex{
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .footer-flex > .div4{
+        display: none;
+    }
+}
