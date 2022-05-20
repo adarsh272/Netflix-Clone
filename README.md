@@ -1,3 +1,10 @@
+Browse through a variety of movies and TV shows just like on
+netflix. It comes with an attractive UI and login functionality
+
+Tech Stack: React, Routing, CSS, TMDB API, Firebase, Stripe
+
+Hosted Link: https://netflix-clone-16f76.web.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
